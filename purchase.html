@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Purchase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <a href="Main.html"> <img src="Manish.png" class="logo"></a>
+            <ul>
+                <li><a href="bus ticketing system.html">HOME</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contacts">CONTACTS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#cancelticket">CANCEL TICKET</a></li>
+            </ul>
+        </nav>  
+        <div class="purchase-form">
+            <h1>Confirm Purchase</h1>
+            <form action="Success.html" method="post">
+                <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="creditCard">Credit Card Number:</label>
+                    <input type="text" id="creditCard" name="creditCard" placeholder="Enter your credit card number" required>
+                </div>
+                <div class="form-group">
+                    <label for="pinCode">Pin Code:</label>
+                    <input type="text" id="pinCode" name="pinCode" placeholder="Enter your pin code" required>
+                </div>
+                <button type="submit">Confirm Purchase</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
