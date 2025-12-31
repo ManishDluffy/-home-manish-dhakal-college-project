@@ -12,7 +12,7 @@ body {
 .main {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(158, 175, 214, 0), rgba(159, 176, 215, 0));
+    background-image: linear-gradient(rgba(141, 157, 196, 0), rgba(159, 176, 215, 0));
     position: relative;
     padding: 0 5%;
     display: flex;
